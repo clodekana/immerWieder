@@ -11,7 +11,7 @@
 
     <header class="hero">
         <div class="bg-slider">
-            <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/bg1.jpg');"></div>
+            <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/bg0.JPG');"></div>
             <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/bg2.jpg');"></div>
             <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/bg3.jpg');"></div>
         </div>
@@ -19,23 +19,81 @@
         <nav class="navbar">
             <div class="logo">IMMER WIEDER <span>LARA</span></div>
             <ul class="nav-links">
-                <li><a href="#about">Bio</a></li>
-                <li><a href="#events">Events</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#events">Termine</a></li>
             </ul>
         </nav>
 
         <div class="hero-content">
-            <h1>ROCK AUS LEIDENSCHAFT</h1>
+            <h1>Immer Wieder Lara</h1>
             <p>Wildblumenwiese trifft Dampflokomotive</p>
         </div>
     </header>
 
+
+  <section id="about" class="section">
+        <div class="container">
+            <h2>Aktuelles</h2>
+            <div class="bio-text">
+                <p><strong>Unser erstes Album „Irgendetwas Stimmt Hier Nicht“ erscheint noch in diesem Jahr! Seid gespannt!</strong></p>
+            </div>
+        </div>
+    </section>
+    <section id="events" class="section">
+        <div class="container">
+            <h2>Termine</h2>
+            <div class="slider-container">
+                <button class="scroll-btn left" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="scroll-wrapper" id="eventContainer">
+                    <div class="event-card" onclick="toggleExpand(this)">
+                        <div class="event-image-container">
+                            <img src="img/event1.jpg" alt="Event">
+                            <div class="event-socials">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-spotify"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="date">Montag, 22.06.26.., ab 16 Uhr</span>
+                            <h3>Musiker*innen gegen Rechts bei der Demo in Nürnberg</h3>
+                            <p>Live & Laut</p>
+                        </div>
+                    </div>
+                    <div class="event-card" onclick="toggleExpand(this)">
+                        <div class="event-image-container">
+                            <img src="img/event2.jpg" alt="Event">
+                            <div class="event-socials">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-spotify"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="date">8. Sept 2024</span>
+                            <h3>Summerending Veitsbronn</h3>
+                            <p>Open Air</p>
+                        </div>
+                                                <div class="card-info">
+                            <span class="date">8. Sept 2024</span>
+                            <h3>Summerending Veitsbronn</h3>
+                            <p>Open Air</p>
+                        </div>
+                    </div>
+                    </div>
+
+                <button class="scroll-btn right" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
     <section id="about" class="section">
         <div class="container">
             <h2>Wer wir sind</h2>
             <div class="bio-text">
                 <p><strong>Immer Wieder Lara</strong>, das ist wie die Kreuzung aus einer Wildblumenwiese mit einer Dampflokomotive.</p>
-                <p>Wir stehen für Rock, für Emotionen, für eingängige Melodien und für aufrüttelnde deutsche Texte.</p>
+                <p>Wir stehen für Rock, für Emotionen, für eingängige Melodien und für aufrüttelnde deutsche Texte, die etwas erzählen wollen.</p>
+                <p>Die Band, das sind Phil (Gitarre & Gesang), Stefan (Bass & Gesang), Lukas (Gitarre & Gesang), Melli (Gesang) und Engelbert (Drums), bringt Musik auf die Bühne, die von großer Vielfalt geprägt ist. Phils Einflüsse aus seiner früheren Zeit als Singer-Songwriter, Mellis Liebe zum Rock'n'Roll, Stefans punkig-funkige Basslines, Lukas‘ virtuose Gitarrensoli und Engelberts rasiermesserscharfe Drum Grooves sowie der dreistimmige Gesang von Immer Wieder Lara sind dabei mehr als die Summe ihrer Teile. Sie ergänzen sich perfekt und laden zum Mitrocken ein.</p>
             </div>
 
             <div class="members-grid">
@@ -67,51 +125,6 @@
             </div>
         </div>
     </section>
-
-    <section id="events" class="section">
-        <div class="container">
-            <h2>Aktuelle Events</h2>
-            <div class="slider-container">
-                <button class="scroll-btn left" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
-                
-                <div class="scroll-wrapper" id="eventContainer">
-                    <div class="event-card" onclick="toggleExpand(this)">
-                        <div class="event-image-container">
-                            <img src="img/event1.jpg" alt="Event">
-                            <div class="event-socials">
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-spotify"></i></a>
-                            </div>
-                        </div>
-                        <div class="card-info">
-                            <span class="date">2. August 2025</span>
-                            <h3>Kulturbahnhof Hersbruck</h3>
-                            <p>Live & Laut</p>
-                        </div>
-                    </div>
-                    <div class="event-card" onclick="toggleExpand(this)">
-                        <div class="event-image-container">
-                            <img src="img/event2.jpg" alt="Event">
-                            <div class="event-socials">
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-spotify"></i></a>
-                            </div>
-                        </div>
-                        <div class="card-info">
-                            <span class="date">8. Sept 2024</span>
-                            <h3>Summerending Veitsbronn</h3>
-                            <p>Open Air</p>
-                        </div>
-                    </div>
-                    </div>
-
-                <button class="scroll-btn right" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
-            </div>
-        </div>
-    </section>
-
     <footer id="contact" class="section footer-section">
     <div class="container">
         <h2>Kontakt & Media</h2>
