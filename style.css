@@ -1,9 +1,9 @@
 :root {
     /* Neue, coolere Farbkombination: Edler Deep-Space-Look mit Neon-Cyan */
-    --accent: #fe6600; 
+    --accent: #ff6600; 
     --accent-gradient: linear-gradient( #f7f1f1, #ece6ea);
-    --bg-main: #0f0f0fea; /*pour le fond*/
-    --bg-card: #d7c6d856; /*pour le fond Termin*/
+    --bg-main: #000000; /*pour le fond*/
+    --bg-card: #2103669a; /*pour le fond Termin*/
     --text-white: #c8c4c9;
     --text-gray: #c5a059; /* Edler Gold/Sandton für Fließtext */
     --text-muted: #95a5a6;
@@ -56,14 +56,14 @@ body {
     position: relative;
     z-index: 10;
     text-align: center;
-    padding: 0 20px;
-    text-shadow: 0 4px 20px rgba(0,0,0,0.9);
+    padding:  20px;
+    text-shadow: 0 4px 20px rgba(22, 185, 1, 0.459);
 }
 
 .hero-content h1 { 
-    font-size: clamp(2.2rem, 7vw, 4.5rem); 
+    font-size: clamp(2.2rem, 5vw, 5.5rem); 
     text-transform: uppercase; 
-    font-weight: 900; 
+    font-weight: 500; 
     letter-spacing: 2px;
     background: var(--accent-gradient);
     -webkit-background-clip: text;
@@ -71,7 +71,7 @@ body {
 }
 
 .hero-content p {
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
     margin-top: 10px;
     color: #fff;
     font-weight: 300;
