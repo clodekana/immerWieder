@@ -1,6 +1,6 @@
 // Hintergrund-Slider
 const slides = document.querySelectorAll('.slide');
-let currentSlide = 0;
+let currentSlide = 1;
 
 function autoSlide() {
     slides[currentSlide].classList.remove('active');
