@@ -71,7 +71,7 @@ body {
 }
 
 .hero-content p {
-    font-size: clamp(1rem, 4vw, 2.5rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
     margin-top: 10px;
     color: #ffffff;
     font-weight: 300;
@@ -104,7 +104,7 @@ body {
 .section { padding: 100px 5%; }
 .container { max-width: 1200px; margin: 0 auto; }
 .bio-text p { margin-bottom: 25px; color: var(--text-muted); font-size: 1.5rem; }
-.bio-text1 p { margin-bottom: 25px; color: var(--text-muted); font-size: 3.1rem; }
+.bio-text1 p { margin-bottom: 25px; color: var(--text-muted); font-size: 2.1rem; }
 .bio-text strong { color: var(--text-white); }
 
 h2 { 
