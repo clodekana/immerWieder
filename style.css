@@ -2,8 +2,8 @@
     /* Neue, coolere Farbkombination: Edler Deep-Space-Look mit Neon-Cyan */
     --accent: #fe6600; 
     --accent-gradient: linear-gradient( #f7f1f1, #ece6ea);
-    --bg-main: #150322; /*pour le fond*/
-    --bg-card: #48264956; /*pour le fond Termin*/
+    --bg-main: #0f0f0fea; /*pour le fond*/
+    --bg-card: #d7c6d856; /*pour le fond Termin*/
     --text-white: #c8c4c9;
     --text-gray: #c5a059; /* Edler Gold/Sandton für Fließtext */
     --text-muted: #95a5a6;
