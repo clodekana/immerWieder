@@ -102,7 +102,8 @@ body {
 /* --- SECTIONS --- */
 .section { padding: 100px 5%; }
 .container { max-width: 1200px; margin: 0 auto; }
-.bio-text p { margin-bottom: 15px; color: var(--text-muted); font-size: 1.1rem; }
+.bio-text p { margin-bottom: 25px; color: var(--text-muted); font-size: 1.5rem; }
+.bio-text1 p { margin-bottom: 25px; color: var(--text-muted); font-size: 3.1rem; }
 .bio-text strong { color: var(--text-white); }
 
 h2 { 
