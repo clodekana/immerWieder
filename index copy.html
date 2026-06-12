@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immer Wieder Lara | Official</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="bg-slider">
+            <div class="slide active" style="background-image: linear-gradient(rgba(248, 252, 251, 0), rgba(22, 17, 17, 0)), url('img/bg1.jpg');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.014), rgba(0, 0, 0, 0)), url('img/event3.jpg');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('img/bg3.jpg');"></div>
+              <div class="slide" style="background-image: linear-gradient(rgba(54, 44, 44, 0), rgba(8, 6, 6, 0)), url('img/lf1.jpg');"></div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="logo">IMMER WIEDER <span>LARA</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#events">Termine</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Immer Wieder Lara</h1>
+            <p>Wildblumenwiese trifft Dampflokomotive</p>
+        </div>
+    </header>
+
+
+  <section id="about" class="section">
+        <div class="container">
+            <h2>Aktuelles</h2>
+            <div class="bio-text1">
+                <p><strong>Unser erstes Album „Irgendetwas Stimmt Hier Nicht“ erscheint noch in diesem Jahr! Seid gespannt!</strong></p>
+            </div>
+        </div>
+    </section>
+    <section id="events" class="section">
+        <div class="container">
+            <h2>Termine</h2>
+            <div class="slider-container">
+                <button class="scroll-btn left" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="scroll-wrapper" id="eventContainer">
+                    <div class="event-card" onclick="toggleExpand(this)">
+                        <div class="event-image-container">
+                            <img src="img/event1.jpg" alt="Event">
+                            <div class="event-socials">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-spotify"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="date">Montag, 22.06.26.., ab 16 Uhr</span>
+                            <h3>Musiker*innen gegen Rechts bei der Demo in Nürnberg</h3>
+                            <p>Live & Laut</p>
+                        </div>
+                    </div>
+
+                                        <div class="event-card" onclick="toggleExpand(this)">
+                        <div class="event-image-container">
+                            <img src="img/event5.jpg" alt="Event">
+                            <div class="event-socials">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-spotify"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="date">Montag, 22.06.26.., ab 16 Uhr</span>
+                            <h3>Musiker*innen gegen Rechts bei der Demo in Nürnberg</h3>
+                            <p>Live & Laut</p>
+                        </div>
+                    </div>
+
+
+                    <div class="event-card" onclick="toggleExpand(this)">
+                        <div class="event-image-container">
+                            <img src="img/event2.jpg" alt="Event">
+                            <div class="event-socials">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-spotify"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <span class="date">8. Sept 2024</span>
+                            <h3>Summerending Veitsbronn</h3>
+                            <p>Open Air</p>
+                        </div>
+
+                    </div>
+                    </div>
+
+                <button class="scroll-btn right" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Wer wir sind</h2>
+            <div class="bio-text">
+                <p><strong>Immer Wieder Lara</strong>, das ist wie die Kreuzung aus einer Wildblumenwiese mit einer Dampflokomotive.</p>
+                <p>Wir stehen für Rock, für Emotionen, für eingängige Melodien und für aufrüttelnde deutsche Texte, die etwas erzählen wollen.</p>
+                <p>Die Band, das sind Phil (Gitarre & Gesang), Stefan (Bass & Gesang), Lukas (Gitarre & Gesang), Melli (Gesang) und Engelbert (Drums), bringt Musik auf die Bühne, die von großer Vielfalt geprägt ist. Phils Einflüsse aus seiner früheren Zeit als Singer-Songwriter, Mellis Liebe zum Rock'n'Roll, Stefans punkig-funkige Basslines, Lukas‘ virtuose Gitarrensoli und Engelberts rasiermesserscharfe Drum Grooves sowie der dreistimmige Gesang von Immer Wieder Lara sind dabei mehr als die Summe ihrer Teile. Sie ergänzen sich perfekt und laden zum Mitrocken ein.</p>
+            </div>
+
+            <div class="members-grid">
+                <div class="member-card">
+                    <img src="band/melli.jpg" alt="Phil">
+                    <h3>Melli</h3>
+              
+                   
+                    <p>Gitarre & Gesang</p>
+                </div>
+                <div class="member-card">
+                    <img src="band/phil.jpg" alt="Phil">
+                    <h3>Phil</h3>
+                    <p>Bass & Gesang</p>
+                </div>
+                <div class="member-card">
+                    <img src="band/stefan.webp" alt="stefan">
+                  
+                       <h3>Stefan</h3>
+                    <p>Gesang</p>
+                </div>
+                <div class="member-card">
+                    <img src="band/bert.jpg" alt="Bert">
+                    <h3>Bert</h3>
+                    <p>Drums</p>
+                </div>
+                <div class="member-card">
+                    <img src="band/lukas.jpg" alt="Lukas">
+                    <h3>Lukas</h3>
+                    <p>Gitarre & Gesang</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="section footer-section">
+    <div class="container">
+        <h2>Kontakt & Media</h2>
+        <div class="footer-grid">
+            
+            <div class="footer-col">
+                <h3>Folgt uns</h3>
+                <div class="social-icons-large">
+                    <a href="https://www.instagram.com/immerwiederlara/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/immerwiederlara/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-spotify"></i></a>
+                    <a href="https://www.youtube.com/watch?v=mzZDZKiqdMI"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Booking & Kontakt</h3>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@immer-wieder-lara.de">info@immer-wieder-lara.de</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+49123456789">+49 123 456789</a></p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Impressum</h3>
+                <p>&copy; 2026 Immer Wieder Lara</p>
+                <p><a href="#">Datenschutz</a> | <a href="#">Rechtliches</a></p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
